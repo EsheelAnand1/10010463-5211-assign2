@@ -11,7 +11,7 @@ namespace question03
             sw.Start();
             string[] fruitsArray = new string[] {"Banana", "Grapefruit", "Tomato", "Oranges"};// 00:00:00.0000022
 
-            //List<string> fruitsArray = new List<string> {"Banana", "Grapefruit", "Tomato", "Oranges"};
+            //List<string> fruitsArray = new List<string> {"Banana", "Grapefruit", "Tomato", "Oranges"}; //00:00:00.0000036
                 Console.WriteLine(sw.Elapsed);
             Console.ReadLine();
             sw.Stop();
