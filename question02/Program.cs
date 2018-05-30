@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace question02
 {
@@ -14,7 +15,7 @@ namespace question02
                  Console.Write(fruit + " ");
             }  
            
-            
+            Debug.WriteLine(fruits);
             Console.ReadLine();
         }
     }
