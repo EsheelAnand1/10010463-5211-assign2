@@ -13,6 +13,8 @@ namespace question02
             foreach(var fruit in fruits) {
                 Console.Write(fruit);
             }
+            
+            Console.ReadLine();
         }
     }
 }
