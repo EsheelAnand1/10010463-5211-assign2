@@ -9,7 +9,7 @@ namespace question03
         static void Main(string[] args)
         { Stopwatch sw = new Stopwatch();
             sw.Start();
-            string[] fruitsArray = new string[] {"Banana", "Grapefruit", "Tomato", "Oranges"};
+            string[] fruitsArray = new string[] {"Banana", "Grapefruit", "Tomato", "Oranges"};// 00:00:00.0000022
 
             //List<string> fruitsArray = new List<string> {"Banana", "Grapefruit", "Tomato", "Oranges"};
                 Console.WriteLine(sw.Elapsed);
@@ -18,6 +18,7 @@ namespace question03
             foreach(var fruit in fruitsArray) {
                 Console.WriteLine(fruit);
             }
+            Console.ReadLine();
         }
     }
 }
