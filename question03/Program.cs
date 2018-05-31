@@ -10,9 +10,9 @@ namespace question03
         { 
             Stopwatch sw = new Stopwatch();
             sw.Start();
-            //string[] fruitsArray = new string[] {"Banana", "Grapefruit", "Tomato", "Oranges"};//00:00:00.0000008
+            string[] fruitsArray = new string[] {"Banana", "Grapefruit", "Tomato", "Oranges"};//00:00:00.0000008
 
-            List<string> fruitsArray = new List<string> {"Banana", "Grapefruit", "Tomato", "Oranges"}; //00:00:00.0000019
+            //List<string> fruitsArray = new List<string> {"Banana", "Grapefruit", "Tomato", "Oranges"}; //00:00:00.0000019
                
             
             sw.Stop();
