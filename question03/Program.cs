@@ -7,17 +7,20 @@ namespace question03
     class Program
     {
         static void Main(string[] args)
-        { Stopwatch sw = new Stopwatch();
+        { 
+            Stopwatch sw = new Stopwatch();
             sw.Start();
-            string[] fruitsArray = new string[] {"Banana", "Grapefruit", "Tomato", "Oranges"};// 00:00:00.0000022
+            //string[] fruitsArray = new string[] {"Banana", "Grapefruit", "Tomato", "Oranges"};//00:00:00.0000008
 
-            //List<string> fruitsArray = new List<string> {"Banana", "Grapefruit", "Tomato", "Oranges"}; //00:00:00.0000036
-                Console.WriteLine(sw.Elapsed);
-            Console.ReadLine();
+            List<string> fruitsArray = new List<string> {"Banana", "Grapefruit", "Tomato", "Oranges"}; //00:00:00.0000019
+               
+            
             sw.Stop();
+             Console.WriteLine(sw.Elapsed);
             foreach(var fruit in fruitsArray) {
                 Console.WriteLine(fruit);
             }
+            Debug.Write(fruitsArray);
             Console.ReadLine();
         }
     }
